@@ -1,5 +1,42 @@
 /* selector {
-    propriedade: valor;
-    propriedade: valor;
+    propriedade01: valor;
+    propriedade02: valor;
 }
 */
+
+
+h3{
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ color: blue;
+}
+
+p{
+    font-family:Helvetica;
+    text-align: justify;
+    line-height: 35px;
+    color: crimson;
+}
+
+#paragrafo01{
+    margin-left: 250px;
+    text-transform: uppercase;
+}
+
+#paragrafo02{
+    margin-right: 300px;
+    background-color: coral;
+
+}
+
+.paragrafos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.4em;
+    line-height: 80px;
+}
+
+.parag_especiail{
+    text-decoration: line-through;
+    background-color: blue;
+}
