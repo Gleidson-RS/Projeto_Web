@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto WEB HTML/CSS</title>
+    <link rel="stylesheet" href="../css/style_formulario.css">
 
 </head>
 <body>
@@ -13,35 +14,29 @@
     </div>
 
     <div id="div-form">
+        <hr>
         <h3>Formulario</h3>
+        <hr>
 
 
         <form name="form" id="form" method="post">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" class="input-vlr01" maxlength="8" required placeholder="Informe seu Nome">
 
-            <br>
-            <br>
 
             <label for="cpf">CPF</label>
             <input type="number" name="cpf" id="cpf" class="input-vlr02" maxlength="14" required placeholder="Informe seu CPF"> 
          
-            <br>
-            <br>
 
             <label for="datanascimento">Data De Nascimento</label>
             <input type="date" name="datanascimento" id="datanascimento" class="input-vlr03" required>
 
-            <br>
-            <br>
 
             <label for="sexo">Sexo</label>
             <input type="radio" name="sexo" id="sexoM" class="input-op" value="" required> Masculino
             <input type="radio" name="sexo" id="sexoM" class="input-op" value="" required> Feminino
             <input type="radio" name="sexo" id="sexoM" class="input-op" value="" required> Não Declarar
 
-            <br>
-            <br>
 
             <label for="preferencias">Preferências</label>
             <br>
@@ -50,14 +45,10 @@
             <input type="checkbox" name="viagem" id="viagem" class="input-op" value="viagem"> Viagem 
             <input type="checkbox" name="compras" id="compras" class="input-op" value="compras"> Compras 
 
-            <br>
-            <br>
 
             <label for="senha">Senha</label>
             <input type="password" name="senha" id="senha" class="input-vlr02" maxlength="6" required placeholder="Informe a Senha">
             
-            <br>
-            <br>
 
             <label for="estado">Estado</label>
             <select name="estado" id="estado" class="input-vlr02" required>
@@ -72,21 +63,16 @@
                 <option value="SE">Sergipe</option>
             </select>
 
-            <br>
-            <br>
 
             <label for="comentarios">comentários</label>
             <br>
             <textarea name="comentarios" id="comentarios" placeholder="Informe seu comentário">
             </textarea>
 
-            <br>
-            <br>
 
             <button type="submit" id="btn-enviar">Enviar</button>
             <button type="reset" id="btn-limpar">Limpar</button>
             <button type="btn">Botão</button>
-
 
 
         </form>
